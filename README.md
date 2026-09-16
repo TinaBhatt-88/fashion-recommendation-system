@@ -1,5 +1,5 @@
 # fashion-recommendation-system
-# AI Fashion Recommendation System
+ 
 
 An AI-powered Fashion Recommendation System that finds visually similar fashion products using OpenCLIP embeddings and FAISS similarity search.
 

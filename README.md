@@ -73,9 +73,35 @@ http://127.0.0.1:8000
 
 ## Dataset
 
-The project uses the Myntra Fashion Dataset.
+ ## Dataset
 
-Note: The dataset is not included in this repository because of its large size.
+This project uses the **Fashion Product Images Dataset** by Param Aggarwal, available on Kaggle.
+
+**Dataset Source:**
+https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset
+
+### Dataset Information
+
+* 44,000+ fashion product images
+* Product metadata including category, sub-category, gender, color, season, and usage
+* Images sourced from the Myntra fashion catalog
+* Suitable for image classification, visual similarity search, recommendation systems, and fashion analytics projects.
+
+### Dataset Setup
+
+1. Download the dataset from Kaggle.
+2. Extract the downloaded files.
+3. Place the dataset inside the project directory:
+
+```text
+images/
+└── myntradataset/
+    ├── images/
+    └── styles.csv
+```
+
+**Note:** The dataset is not included in this repository because of its large size.
+
 
 ## Future Improvements
 

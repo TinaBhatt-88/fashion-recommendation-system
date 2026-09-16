@@ -1,0 +1,14 @@
+ .venv/
+.venv311/
+.idea/
+__pycache__/
+
+images/
+uploads/
+
+embeddings.npy
+faiss_index.bin
+filenames.pkl
+
+*.npy
+*.pkl

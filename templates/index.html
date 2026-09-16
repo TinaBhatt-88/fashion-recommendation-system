@@ -1,0 +1,54 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Fashion Recommendation System</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🛍️ AI Fashion Recommendation System</h1>
+
+    <p class="subtitle">
+        Upload a fashion image and discover visually similar products using AI-powered recommendations.
+    </p>
+
+    <form action="/search" method="post" enctype="multipart/form-data">
+
+        <div class="upload-box">
+
+            <h3>Upload Fashion Image</h3>
+
+            <p>
+                Choose a clothing, footwear, watch, bag, or accessory image.
+            </p>
+
+            <input
+                type="file"
+                name="file"
+                accept=".jpg,.jpeg,.png,.webp"
+                required
+            >
+
+        </div>
+
+        <button type="submit">
+            🔍 Find Similar Products
+        </button>
+
+    </form>
+
+    <div class="footer">
+        <p>Powered by OpenCLIP • FAISS • FastAPI</p>
+    </div>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>

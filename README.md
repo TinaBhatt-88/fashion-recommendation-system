@@ -72,8 +72,7 @@ http://127.0.0.1:8000
 ```
 
 ## Dataset
-
- ## Dataset
+ 
 
 This project uses the **Fashion Product Images Dataset** by Param Aggarwal, available on Kaggle.
 
